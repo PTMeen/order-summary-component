@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    body {
+        @apply font-redhat;
+    }
+}
+
+.wave-background {
+    background-image: url('./assets/images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225 100% 94%);
+    background-size: 100%;
+}
+
+@media (min-width: 1024px) {
+    .wave-background {
+        background-image: url('./assets/images/pattern-background-desktop.svg');
+    }
+}
