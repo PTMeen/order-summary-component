@@ -1,5 +1,3 @@
-import { FaMusic } from 'react-icons/fa';
-import colors from 'tailwindcss/colors';
 import musicIcon from '../assets/images/icon-music.svg';
 
 const CardContent = () => {
